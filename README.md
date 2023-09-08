@@ -9,7 +9,7 @@ High-performance on-the-fly thumbnailer for mpv.
 Place thumbfast.lua in your mpv `scripts` folder.  
 Default settings are listed in thumbfast.conf, copy it to your mpv `script-opts` folder to customize.
 
-For the vanilla UI, you also have to install [osc.lua](https://github.com/po5/thumbfast/blob/vanilla-osc/player/lua/osc.lua) (identical to the mpv default, with added thumbfast support) into your `scripts` folder.  
+For the vanilla UI, you also have to install [osc.lua](https://github.com/l-jared/thumbfast/blob/vanilla-osc/player/lua/osc.lua) (identical to the mpv default, with added thumbfast support) into your `scripts` folder.  
 For third-party UIs, refer to their respective installation instructions. [See the list of supported UIs.](#ui-support)
 
 ## Features
@@ -27,9 +27,9 @@ Hover on the timeline for nice thumbnails.
 
 ## UI support
 - [uosc](https://github.com/tomasklaen/uosc)
-- [osc.lua](https://github.com/po5/thumbfast/blob/vanilla-osc/player/lua/osc.lua) (use this fork for vanilla UI)
+- [osc.lua](https://github.com/l-jared/thumbfast/blob/vanilla-osc/player/lua/osc.lua) (use this fork for vanilla UI)
 - [progressbar](https://github.com/torque/mpv-progressbar)
-- [tethys](https://github.com/Zren/mpv-osc-tethys) (PR pending, [lua](https://github.com/po5/mpv-osc-tethys/blob/thumbfast/osc_tethys.lua))
+- [tethys](https://github.com/Zren/mpv-osc-tethys) (PR pending, [lua](https://github.com/l-jared/mpv-osc-tethys/blob/thumbfast/osc_tethys.lua))
 - [modern](https://github.com/maoiscat/mpv-osc-modern/tree/with.thumbfast) (separate branch)
 - [ModernX](https://github.com/cyl0/ModernX)
 - [oscc](https://github.com/longtermfree/oscc)
